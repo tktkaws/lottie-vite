@@ -1,0 +1,23 @@
+
+ 
+body.home {
+  height: 300vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: clamp(16px,2vw,32px);
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
+#animationWindow {
+  max-width: 60%;
+  aspect-ratio: 800 / 400;
+  height: auto;
+  position: fixed;
+  bottom: 20%;
+  left: 20%;
+  border: solid 1px black;
+}
