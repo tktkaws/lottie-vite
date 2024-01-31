@@ -1,7 +1,7 @@
 import './style.css'
 import gsap from "gsap";
 import lottie from 'lottie-web';
-import ScrollTrigger from "gsap/ScrollTrigger"; // プラグインを正しく読み込んでいるか確認
+import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const ScrollLottie = (obj) => {
